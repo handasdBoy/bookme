@@ -4,7 +4,7 @@ public class JPA07{
         int skill = 2;
         int team = 3;
         System.out.println("The basketball grade is " + Basketball.calGrade(action,skill,team));
-        System.out.println("The basketball grade is " + Baseball.calGrade(skill,team));
+        System.out.println("The baseball grade is " + Baseball.calGrade(skill,team));
     }
 }
 
